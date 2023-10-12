@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16775F3E2AD89EA2008EB47F /* Meeting3.swift */; };
+		16775F5D2AD8A3B8008EB47F /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16775F5C2AD8A3B8008EB47F /* Counter.swift */; };
+		16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16775F782AD8B1A1008EB47F /* ToggleButton.swift */; };
 		16A4CA6C2ACF620600A476DF /* f23_academy_playgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4CA6B2ACF620600A476DF /* f23_academy_playgroundApp.swift */; };
 		16A4CA6E2ACF620600A476DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4CA6D2ACF620600A476DF /* ContentView.swift */; };
 		16A4CA702ACF620C00A476DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A4CA6F2ACF620C00A476DF /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16775F3E2AD89EA2008EB47F /* Meeting3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting3.swift; sourceTree = "<group>"; };
+		16775F5C2AD8A3B8008EB47F /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		16775F782AD8B1A1008EB47F /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		16A4CA682ACF620500A476DF /* f23-academy-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "f23-academy-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A4CA6B2ACF620600A476DF /* f23_academy_playgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = f23_academy_playgroundApp.swift; sourceTree = "<group>"; };
 		16A4CA6D2ACF620600A476DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16775F3D2AD89E92008EB47F /* Meeting 3 */ = {
+			isa = PBXGroup;
+			children = (
+				16775F3E2AD89EA2008EB47F /* Meeting3.swift */,
+				16775F782AD8B1A1008EB47F /* ToggleButton.swift */,
+				16775F5C2AD8A3B8008EB47F /* Counter.swift */,
+			);
+			path = "Meeting 3";
+			sourceTree = "<group>";
+		};
 		16A4CA5F2ACF620500A476DF = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +75,7 @@
 			children = (
 				16A4CA6B2ACF620600A476DF /* f23_academy_playgroundApp.swift */,
 				16A4CA6D2ACF620600A476DF /* ContentView.swift */,
+				16775F3D2AD89E92008EB47F /* Meeting 3 */,
 				16A4CA792ACF625600A476DF /* Meeting 2 */,
 				16A4CA6F2ACF620C00A476DF /* Assets.xcassets */,
 				16A4CA712ACF620C00A476DF /* Preview Content */,
@@ -112,7 +129,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					16A4CA672ACF620500A476DF = {
 						CreatedOnToolsVersion = 14.2;
@@ -157,8 +174,11 @@
 				16A4CA6E2ACF620600A476DF /* ContentView.swift in Sources */,
 				16A4CAB32ACF9C5A00A476DF /* InstagramView.swift in Sources */,
 				16A4CA972ACF72E000A476DF /* TextView.swift in Sources */,
+				16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */,
+				16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */,
 				16A4CA6C2ACF620600A476DF /* f23_academy_playgroundApp.swift in Sources */,
 				16A4CA7B2ACF626700A476DF /* NestedViews.swift in Sources */,
+				16775F5D2AD8A3B8008EB47F /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +221,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -261,6 +282,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
