@@ -6,19 +6,20 @@
 //
 
 import SwiftUI
-
+import Observation
 struct UserView: View {
-    @State private var user: UserStruct = .example
+    private var user: UserClass = .example
     var body: some View {
+        @Bindable var userobj = user
         VStack {
             UserCard(user: user)
             VStack {
                 HStack {
                     Text("Name: ")
-                    TextField("Edit name", text: $user.name)
+                    TextField("Edit name", text: $userobj.name)
                 }
                 .textFieldStyle(.roundedBorder)
-                Stepper("Age: \(user.age)", value: $user.age)
+                Stepper("Age: \(userobj.age)", value: $userobj.age)
                 Button("Print!") {
                     print(user.age)
                 }

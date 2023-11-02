@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WrongToDoItemView: View {
-    @State var todo: WrongToDo
+    @Binding var todo: WrongToDo
     var body: some View {
         HStack {
             Button(action: {
@@ -22,5 +22,5 @@ struct WrongToDoItemView: View {
 }
 
 #Preview {
-    WrongToDoItemView(todo: WrongToDo.example)
+    WrongToDoItemView(todo: .constant(WrongToDo.example))
 }

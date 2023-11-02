@@ -20,8 +20,14 @@ struct WrongToDoView: View {
                     }
             }
             Section("Todos") {
-                ForEach(todos) { todo in
-                    WrongToDoItemView(todo: todo)
+                ForEach($todos) { $todo in
+                    WrongToDoItemView(todo: $todo)
+                }
+            }
+            
+            Section("Todos") {
+                ForEach($todos) { $todo in
+                    WrongToDoItemView(todo: $todo)
                 }
             }
         }

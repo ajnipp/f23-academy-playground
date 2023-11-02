@@ -30,6 +30,12 @@
 		16B5CBB12AF44D3A00303696 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB02AF44D3A00303696 /* UserView.swift */; };
 		16B5CBB32AF44D7F00303696 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB22AF44D7F00303696 /* User.swift */; };
 		16B5CBB52AF44F3C00303696 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB42AF44F3C00303696 /* UserCard.swift */; };
+		16B5CBB72AF4612D00303696 /* LifteyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB62AF4612D00303696 /* LifteyViewModel.swift */; };
+		16B5CBB92AF4616300303696 /* LifteyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB82AF4616300303696 /* LifteyView.swift */; };
+		16B5CBBB2AF4618F00303696 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBBA2AF4618F00303696 /* AddWorkoutView.swift */; };
+		16B5CBBD2AF4634C00303696 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBBC2AF4634C00303696 /* Exercise.swift */; };
+		16B5CBBF2AF465D000303696 /* ExerciseRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBBE2AF465D000303696 /* ExerciseRowItemView.swift */; };
+		16B5CBC12AF4661C00303696 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBC02AF4661C00303696 /* WorkoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +63,12 @@
 		16B5CBB02AF44D3A00303696 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		16B5CBB22AF44D7F00303696 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		16B5CBB42AF44F3C00303696 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		16B5CBB62AF4612D00303696 /* LifteyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifteyViewModel.swift; sourceTree = "<group>"; };
+		16B5CBB82AF4616300303696 /* LifteyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifteyView.swift; sourceTree = "<group>"; };
+		16B5CBBA2AF4618F00303696 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		16B5CBBC2AF4634C00303696 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		16B5CBBE2AF465D000303696 /* ExerciseRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowItemView.swift; sourceTree = "<group>"; };
+		16B5CBC02AF4661C00303696 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +160,16 @@
 			children = (
 				16B5CBAA2AF4466F00303696 /* WrongToDoView.swift */,
 				16B5CBB22AF44D7F00303696 /* User.swift */,
+				16B5CBC02AF4661C00303696 /* WorkoutView.swift */,
+				16B5CBBC2AF4634C00303696 /* Exercise.swift */,
+				16B5CBBE2AF465D000303696 /* ExerciseRowItemView.swift */,
 				16B5CBB42AF44F3C00303696 /* UserCard.swift */,
 				16B5CBB02AF44D3A00303696 /* UserView.swift */,
 				16B5CBAC2AF446B700303696 /* WrongToDoModel.swift */,
 				16B5CBAE2AF44B5900303696 /* WrongToDoItemView.swift */,
+				16B5CBB62AF4612D00303696 /* LifteyViewModel.swift */,
+				16B5CBB82AF4616300303696 /* LifteyView.swift */,
+				16B5CBBA2AF4618F00303696 /* AddWorkoutView.swift */,
 			);
 			path = "Meeting 6";
 			sourceTree = "<group>";
@@ -230,15 +248,18 @@
 				16A4CA6E2ACF620600A476DF /* ContentView.swift in Sources */,
 				16A4CAB32ACF9C5A00A476DF /* InstagramView.swift in Sources */,
 				16B5CBB12AF44D3A00303696 /* UserView.swift in Sources */,
+				16B5CBC12AF4661C00303696 /* WorkoutView.swift in Sources */,
 				16A4CA972ACF72E000A476DF /* TextView.swift in Sources */,
 				16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */,
 				1687E6802AEB166B004C7F20 /* ToDos.swift in Sources */,
 				16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */,
 				16B5CBB32AF44D7F00303696 /* User.swift in Sources */,
 				1687E6782AEB1106004C7F20 /* TabHome.swift in Sources */,
+				16B5CBBD2AF4634C00303696 /* Exercise.swift in Sources */,
 				16B5CBAD2AF446B700303696 /* WrongToDoModel.swift in Sources */,
 				16A4CA6C2ACF620600A476DF /* f23_academy_playgroundApp.swift in Sources */,
 				1687E67C2AEB12C8004C7F20 /* RosterItem.swift in Sources */,
+				16B5CBBF2AF465D000303696 /* ExerciseRowItemView.swift in Sources */,
 				1687E67A2AEB1199004C7F20 /* GeneratedView.swift in Sources */,
 				1687E67E2AEB14E0004C7F20 /* ListView.swift in Sources */,
 				16B5CBAF2AF44B5900303696 /* WrongToDoItemView.swift in Sources */,
@@ -246,7 +267,10 @@
 				16B5CBAB2AF4466F00303696 /* WrongToDoView.swift in Sources */,
 				16775F5D2AD8A3B8008EB47F /* Counter.swift in Sources */,
 				16B5CBB52AF44F3C00303696 /* UserCard.swift in Sources */,
+				16B5CBB92AF4616300303696 /* LifteyView.swift in Sources */,
 				1687E6762AEB0DF2004C7F20 /* SubView.swift in Sources */,
+				16B5CBBB2AF4618F00303696 /* AddWorkoutView.swift in Sources */,
+				16B5CBB72AF4612D00303696 /* LifteyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

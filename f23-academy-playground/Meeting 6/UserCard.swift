@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct UserCard: View {
-    let user: UserStruct
+    @Bindable var user: UserClass
     var body: some View {
         VStack {
             Text(user.name)
@@ -24,5 +24,5 @@ struct UserCard: View {
 }
 
 #Preview {
-    UserCard(user: UserStruct(name: "Alec", age: 23))
+    UserCard(user: UserClass(name: "Alec", age: 23))
 }

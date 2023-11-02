@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Observation
 
 struct UserStruct {
     var name: String
@@ -15,7 +16,7 @@ struct UserStruct {
         UserStruct(name: "Alec", age: 17)
     }
 }
-
+@Observable
 class UserClass {
     var name: String
     var age: Int
