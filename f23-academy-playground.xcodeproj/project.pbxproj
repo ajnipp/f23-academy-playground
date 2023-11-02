@@ -27,6 +27,9 @@
 		16B5CBAB2AF4466F00303696 /* WrongToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBAA2AF4466F00303696 /* WrongToDoView.swift */; };
 		16B5CBAD2AF446B700303696 /* WrongToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBAC2AF446B700303696 /* WrongToDoModel.swift */; };
 		16B5CBAF2AF44B5900303696 /* WrongToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBAE2AF44B5900303696 /* WrongToDoItemView.swift */; };
+		16B5CBB12AF44D3A00303696 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB02AF44D3A00303696 /* UserView.swift */; };
+		16B5CBB32AF44D7F00303696 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB22AF44D7F00303696 /* User.swift */; };
+		16B5CBB52AF44F3C00303696 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBB42AF44F3C00303696 /* UserCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		16B5CBAA2AF4466F00303696 /* WrongToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongToDoView.swift; sourceTree = "<group>"; };
 		16B5CBAC2AF446B700303696 /* WrongToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongToDoModel.swift; sourceTree = "<group>"; };
 		16B5CBAE2AF44B5900303696 /* WrongToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongToDoItemView.swift; sourceTree = "<group>"; };
+		16B5CBB02AF44D3A00303696 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		16B5CBB22AF44D7F00303696 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		16B5CBB42AF44F3C00303696 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				16B5CBAA2AF4466F00303696 /* WrongToDoView.swift */,
+				16B5CBB22AF44D7F00303696 /* User.swift */,
+				16B5CBB42AF44F3C00303696 /* UserCard.swift */,
+				16B5CBB02AF44D3A00303696 /* UserView.swift */,
 				16B5CBAC2AF446B700303696 /* WrongToDoModel.swift */,
 				16B5CBAE2AF44B5900303696 /* WrongToDoItemView.swift */,
 			);
@@ -220,10 +229,12 @@
 				1687E6742AEB0CFA004C7F20 /* NavigationRoot.swift in Sources */,
 				16A4CA6E2ACF620600A476DF /* ContentView.swift in Sources */,
 				16A4CAB32ACF9C5A00A476DF /* InstagramView.swift in Sources */,
+				16B5CBB12AF44D3A00303696 /* UserView.swift in Sources */,
 				16A4CA972ACF72E000A476DF /* TextView.swift in Sources */,
 				16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */,
 				1687E6802AEB166B004C7F20 /* ToDos.swift in Sources */,
 				16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */,
+				16B5CBB32AF44D7F00303696 /* User.swift in Sources */,
 				1687E6782AEB1106004C7F20 /* TabHome.swift in Sources */,
 				16B5CBAD2AF446B700303696 /* WrongToDoModel.swift in Sources */,
 				16A4CA6C2ACF620600A476DF /* f23_academy_playgroundApp.swift in Sources */,
@@ -234,6 +245,7 @@
 				16A4CA7B2ACF626700A476DF /* NestedViews.swift in Sources */,
 				16B5CBAB2AF4466F00303696 /* WrongToDoView.swift in Sources */,
 				16775F5D2AD8A3B8008EB47F /* Counter.swift in Sources */,
+				16B5CBB52AF44F3C00303696 /* UserCard.swift in Sources */,
 				1687E6762AEB0DF2004C7F20 /* SubView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
