@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163E657D2AFD8EA000941A3C /* BallDontLieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E657C2AFD8EA000941A3C /* BallDontLieService.swift */; };
+		163E657F2AFD8FFC00941A3C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E657E2AFD8FFC00941A3C /* PlayerView.swift */; };
+		163E65812AFD901500941A3C /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163E65802AFD901500941A3C /* PlayerViewModel.swift */; };
 		16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16775F3E2AD89EA2008EB47F /* Meeting3.swift */; };
 		16775F5D2AD8A3B8008EB47F /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16775F5C2AD8A3B8008EB47F /* Counter.swift */; };
 		16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16775F782AD8B1A1008EB47F /* ToggleButton.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163E657C2AFD8EA000941A3C /* BallDontLieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallDontLieService.swift; sourceTree = "<group>"; };
+		163E657E2AFD8FFC00941A3C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		163E65802AFD901500941A3C /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		16775F3E2AD89EA2008EB47F /* Meeting3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting3.swift; sourceTree = "<group>"; };
 		16775F5C2AD8A3B8008EB47F /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		16775F782AD8B1A1008EB47F /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
@@ -82,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		163E657B2AFD8C7900941A3C /* Meeting 7 */ = {
+			isa = PBXGroup;
+			children = (
+				163E657C2AFD8EA000941A3C /* BallDontLieService.swift */,
+				163E65802AFD901500941A3C /* PlayerViewModel.swift */,
+				163E657E2AFD8FFC00941A3C /* PlayerView.swift */,
+			);
+			path = "Meeting 7";
+			sourceTree = "<group>";
+		};
 		16775F3D2AD89E92008EB47F /* Meeting 3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +143,7 @@
 			children = (
 				16A4CA6B2ACF620600A476DF /* f23_academy_playgroundApp.swift */,
 				16A4CA6D2ACF620600A476DF /* ContentView.swift */,
+				163E657B2AFD8C7900941A3C /* Meeting 7 */,
 				16B5CBA92AF4463300303696 /* Meeting 6 */,
 				1687E6722AEB0CB2004C7F20 /* Meeting 5 */,
 				16775F3D2AD89E92008EB47F /* Meeting 3 */,
@@ -253,6 +270,7 @@
 				16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */,
 				1687E6802AEB166B004C7F20 /* ToDos.swift in Sources */,
 				16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */,
+				163E657F2AFD8FFC00941A3C /* PlayerView.swift in Sources */,
 				16B5CBB32AF44D7F00303696 /* User.swift in Sources */,
 				1687E6782AEB1106004C7F20 /* TabHome.swift in Sources */,
 				16B5CBBD2AF4634C00303696 /* Exercise.swift in Sources */,
@@ -262,7 +280,9 @@
 				16B5CBBF2AF465D000303696 /* ExerciseRowItemView.swift in Sources */,
 				1687E67A2AEB1199004C7F20 /* GeneratedView.swift in Sources */,
 				1687E67E2AEB14E0004C7F20 /* ListView.swift in Sources */,
+				163E657D2AFD8EA000941A3C /* BallDontLieService.swift in Sources */,
 				16B5CBAF2AF44B5900303696 /* WrongToDoItemView.swift in Sources */,
+				163E65812AFD901500941A3C /* PlayerViewModel.swift in Sources */,
 				16A4CA7B2ACF626700A476DF /* NestedViews.swift in Sources */,
 				16B5CBAB2AF4466F00303696 /* WrongToDoView.swift in Sources */,
 				16775F5D2AD8A3B8008EB47F /* Counter.swift in Sources */,
