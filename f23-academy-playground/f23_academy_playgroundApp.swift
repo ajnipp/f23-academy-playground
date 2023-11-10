@@ -11,7 +11,7 @@ import SwiftUI
 struct f23_academy_playgroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerView()
         }
     }
 }

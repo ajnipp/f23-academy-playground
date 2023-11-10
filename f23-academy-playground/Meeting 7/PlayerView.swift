@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PlayerView: View {
-    var player: Player = .example
+    @StateObject var vm = PlayerViewModel()
     var body: some View {
         VStack {
             HStack {
@@ -19,28 +19,30 @@ struct PlayerView: View {
             }
             .padding()
             Spacer()
-            VStack {
-                Text("\(player.firstName) \(player.lastName)")
-                    .font(.system(size: 40))
-                    .bold()
-                Text("\(player.heightFeet) feet \(player.heightInches) inches")
-            }
-            .padding(20)
-            .background(.thinMaterial)
-            .clipShape(RoundedRectangle(cornerRadius: 20))
+            
+            playerStuff
+            
             Spacer()
             Button("Fetch Lebron") {
                 Task {
-                    do {
-                        try await BallDontLieService.fetchPlayer(playerID: 237)
-                    } catch {
-                        print("error")
-                    }
+                    await vm.fetchLebron()
                 }
             }
             .buttonStyle(.borderedProminent)
             .padding(.bottom, 30)
         }
+    }
+    
+    var playerStuff: some View {
+        VStack {
+            Text(vm.name)
+                .font(.system(size: 40))
+                .bold()
+            Text(vm.stats)
+        }
+        .padding(20)
+        .background(.thinMaterial)
+        .clipShape(RoundedRectangle(cornerRadius: 20))
     }
 }
 

@@ -18,4 +18,21 @@ class PlayerViewModel: ObservableObject {
             player = nil
         }
     }
+    
+    var name: String {
+        guard let unwrapped = player else {
+            return "No name"
+        }
+        
+        return unwrapped.firstName + " " + unwrapped.lastName
+    }
+    
+    var stats: String {
+        guard let unwrapped = player else {
+            return "No stats"
+        }
+        
+        return "\(unwrapped.heightFeet ?? 0)' \(unwrapped.heightInches ?? 0)\""
+        
+    }
 }

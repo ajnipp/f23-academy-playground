@@ -11,6 +11,7 @@ class BallDontLieService {
     static let baseURL = "https://www.balldontlie.io/api/v1/players/"
 
     static func fetchPlayer(playerID: Int) async throws -> Player {
+        print(String(playerID))
         guard let url = URL(string: baseURL + "\(playerID)") else {
             throw NSError(domain: "Invalid URL", code: 0, userInfo: nil)
         }
@@ -32,11 +33,11 @@ class BallDontLieService {
 struct Player: Codable {
     let id: Int
     let firstName, lastName, position: String
-    let heightFeet, heightInches, weightPounds: Int
+    let heightFeet, heightInches, weightPounds: Int?
     let team: Team
     
     static var example: Player {
-        return Player(id: 237, firstName: "LeBron", lastName: "James", position: "F", heightFeet: 6, heightInches: 9, weightPounds: 250, team: .example)
+        return Player(id: 237, firstName: "LeDon", lastName: "James", position: "F", heightFeet: 6, heightInches: 9, weightPounds: 250, team: .example)
     }
 }
 
