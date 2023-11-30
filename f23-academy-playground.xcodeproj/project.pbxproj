@@ -45,6 +45,8 @@
 		16B5CBBD2AF4634C00303696 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBBC2AF4634C00303696 /* Exercise.swift */; };
 		16B5CBBF2AF465D000303696 /* ExerciseRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBBE2AF465D000303696 /* ExerciseRowItemView.swift */; };
 		16B5CBC12AF4661C00303696 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5CBC02AF4661C00303696 /* WorkoutView.swift */; };
+		16D246EB2B194AEA005693FF /* AccessibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D246EA2B194AEA005693FF /* AccessibleView.swift */; };
+		16D246ED2B194AF2005693FF /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D246EC2B194AF2005693FF /* AnimatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +89,8 @@
 		16B5CBBC2AF4634C00303696 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		16B5CBBE2AF465D000303696 /* ExerciseRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowItemView.swift; sourceTree = "<group>"; };
 		16B5CBC02AF4661C00303696 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		16D246EA2B194AEA005693FF /* AccessibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibleView.swift; sourceTree = "<group>"; };
+		16D246EC2B194AF2005693FF /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,7 @@
 			children = (
 				16A4CA6B2ACF620600A476DF /* f23_academy_playgroundApp.swift */,
 				16A4CA6D2ACF620600A476DF /* ContentView.swift */,
+				16D246E92B194ADD005693FF /* Meeting 10 */,
 				160981F82B07C78200697FEE /* Meeting 8 */,
 				163E657B2AFD8C7900941A3C /* Meeting 7 */,
 				16B5CBA92AF4463300303696 /* Meeting 6 */,
@@ -215,6 +220,15 @@
 				16B5CBBA2AF4618F00303696 /* AddWorkoutView.swift */,
 			);
 			path = "Meeting 6";
+			sourceTree = "<group>";
+		};
+		16D246E92B194ADD005693FF /* Meeting 10 */ = {
+			isa = PBXGroup;
+			children = (
+				16D246EA2B194AEA005693FF /* AccessibleView.swift */,
+				16D246EC2B194AF2005693FF /* AnimatedView.swift */,
+			);
+			path = "Meeting 10";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +310,7 @@
 				16A4CA972ACF72E000A476DF /* TextView.swift in Sources */,
 				16775F792AD8B1A1008EB47F /* ToggleButton.swift in Sources */,
 				1687E6802AEB166B004C7F20 /* ToDos.swift in Sources */,
+				16D246ED2B194AF2005693FF /* AnimatedView.swift in Sources */,
 				16775F3F2AD89EA2008EB47F /* Meeting3.swift in Sources */,
 				163E657F2AFD8FFC00941A3C /* PlayerView.swift in Sources */,
 				16B5CBB32AF44D7F00303696 /* User.swift in Sources */,
@@ -312,6 +327,7 @@
 				163E657D2AFD8EA000941A3C /* BallDontLieService.swift in Sources */,
 				16B5CBAF2AF44B5900303696 /* WrongToDoItemView.swift in Sources */,
 				163E65812AFD901500941A3C /* PlayerViewModel.swift in Sources */,
+				16D246EB2B194AEA005693FF /* AccessibleView.swift in Sources */,
 				160982012B07C79D00697FEE /* PokemonViewModel.swift in Sources */,
 				160982022B07C79D00697FEE /* PokeyView.swift in Sources */,
 				16A4CA7B2ACF626700A476DF /* NestedViews.swift in Sources */,
