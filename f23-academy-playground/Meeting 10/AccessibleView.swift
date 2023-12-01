@@ -12,12 +12,13 @@ struct AccessibleView: View {
     var body: some View {
         VStack {
             Text("Hello, world!")
-                .foregroundColor(Color("Blue"))
-                .font(.system(size: 36))
+                .foregroundColor(.blue)
+                .font(.largeTitle)
 
             Image("a-icon")
                 .resizable()
                 .frame(width: 100, height: 100)
+                .accessibilityLabel("Star picture")
 
             Button {
                 fontSize += 20

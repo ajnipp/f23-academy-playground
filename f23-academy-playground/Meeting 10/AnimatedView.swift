@@ -8,26 +8,26 @@
 import SwiftUI
 
 struct AnimatedView: View {
-    @State private var isToggled = false
+    @State var showText = false
     var body: some View {
         VStack {
             HStack {
                 Text("Click here")
                 Image(systemName: "chevron.right")
-                    .rotationEffect(.degrees(isToggled ? 90 : 0))
+                    .rotationEffect(.degrees( showText ? 90 : 0))
             }
-            if isToggled {
-                Text("Hello, World!")
+            if showText {
+                Text("Hi!")
             }
         }
         .padding()
         .background(
         RoundedRectangle(cornerRadius: 10)
-            .foregroundStyle(.thinMaterial)
+            .foregroundStyle(.gray)
         )
         .onTapGesture {
             withAnimation(.easeInOut) {
-                isToggled.toggle()
+                showText.toggle()
             }
         }
     }
